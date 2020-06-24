@@ -1,15 +1,13 @@
 #include<iostream>
 
-
-
 using namespace std;
 
-
-
+/* 전역 변수 선언 */
 int route[15][15];
 int x = 0;
 int y = 0;
 
+/* 피보나치 수열 구현부 */
 int fib(int n, int m)
 {
 	if (n == 1) { return 1; }
@@ -45,7 +43,7 @@ int main()
 
 	if (k == 0)
 	{
-		cout << fib(n, m) << endl;
+		cout << fib(n, m) << endl; //0일 때는 해당 부분만 넘겨 계산
 	}
 
 	else 
