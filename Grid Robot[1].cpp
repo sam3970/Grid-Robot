@@ -22,7 +22,7 @@ int calc(int n, int m)
 
 int main()
 {
-	int n,m,k;
+	int n, m, k;
 	
 	cin >> n; cin >> m; cin >> k;
 	
